@@ -7,7 +7,7 @@ import { useState } from "react";
 import { toast } from "react-hot-toast";
 import { useRouter } from "next/navigation";
 
-import useUploadModal from "@/hooks/UseUploadModal";
+import useUploadModal from "@/hooks/useUploadModal";
 import { useUser } from "@/hooks/useUser";
 
 import Modal from "./Modal";
