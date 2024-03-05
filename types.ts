@@ -30,7 +30,7 @@ export interface Product {
 
 export interface Price {
   id: string;
-  prodcut_id?: string;
+  product_id?: string;
   active?: boolean;
   description?: string;
   unit_amount?: number;
