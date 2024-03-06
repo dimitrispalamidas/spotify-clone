@@ -4,9 +4,9 @@ import { TbPlaylist } from "react-icons/tb";
 import { AiOutlinePlus } from "react-icons/ai";
 
 import { Song } from "@/types";
-import useUploadModal from "@/hooks/useUploadModal";
+import useUploadModal from "../hooks/useUploadModal";
 import { useUser } from "@/hooks/useUser";
-import useAuthModal from "@/hooks/useAuthModal";
+import useAuthModal from "../hooks/useAuthModal";
 import useSubscribeModal from "@/hooks/useSubscribeModal";
 import useOnPlay from "@/hooks/useOnPlay";
 
