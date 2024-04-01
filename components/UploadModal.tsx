@@ -12,7 +12,7 @@ import { useUser } from "@/hooks/useUser";
 import Modal from "./Modal";
 import Input from "./Input";
 import Button from "./Button";
-// import useUploadModal from "@/hooks/useUploadModal";
+import useUploadModal from "@/hooks/useUploadModal";
 
 const UploadModal = () => {
   const [isLoading, setIsLoading] = useState(false);
